@@ -10,7 +10,8 @@ makepkg -si
 cd ..
 rm -rf yay/
 
-sudo pacman -S --noconfirm firefox discord
+sudo pacman -S --noconfirm lib32-nvidia-utils
+sudo pacman -S --noconfirm firefox discord steam
 yay -S --noconfirm 1password
 
 if [ "$DESKTOP_SESSION" = "gnome" ]; then
